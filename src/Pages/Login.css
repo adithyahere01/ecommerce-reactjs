@@ -1,0 +1,44 @@
+.login-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* border: 2px solid red; */
+}
+.login-section, .admin-section{
+    height: 80vh;
+    /* border: 2px solid blue; */
+}
+.login-div{
+    font-family: var(--brand-font);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.login-div h1{
+    padding-bottom: 30px;
+}
+.login-div button{
+    text-shadow: 1px 1px 3px #151D3B;
+    background: #151D3B;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    font-size: 0.9rem;
+}
+.login-div input{
+    outline: none;
+    height: 35px;
+    width: 70%;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.login-div input::placeholder{
+    font-size: 1rem;
+}
